@@ -35,13 +35,18 @@
     margin: 20px;
 }
 
-.links h3 {
-    background-color: aqua;
-    color: red;
+.links h3{
+    background-color: #111;     
+    color: goldenrod;            
     display: inline-block;
-    padding: 8px 12px;
+    padding: 10px 15px;
     border-radius: 8px;
 }
+.links h3:hover{
+    background-color: black;
+    color: gold;
+}
+
 
 .links a {
     text-decoration: none;
@@ -214,4 +219,5 @@ ol li {
         height: 220px;
     }
 }
+
 
