@@ -219,5 +219,26 @@ ol li {
         height: 220px;
     }
 }
+.video-box {
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.video-box iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+.video-box p {
+    margin-top: 10px;
+    color: goldenrod;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
 
 
