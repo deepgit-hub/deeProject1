@@ -1,278 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Deepak Portfolio</title>
-    <link rel="icon" href="Deepak.jpg" ><!-- This is the link where the icon of the Browser apeears -->        
-    <link rel="stylesheet" href="style.css"><!-- This rel means relation and we are including stylesheet -->
-
+    <meta charset="UTF-8">
+    <title>Deepak L | Portfolio</title>
+    <link rel="icon" href="Deepak.jpg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="name"> <!-- This is Division we can divide each things in webpage and we can give specific class name also -->
+<!-- ========== HERO ========== -->
+<header class="hero">
+    <img src="Deepak_pro.jpg" alt="Deepak L" class="profile-img">
+    <div class="hero-text">
+        <h1>Deepak L</h1>
+        <h2>Computer Science Student</h2>
+        <p>Java • Problem Solving • Cybersecurity</p>
 
-<h1>Deepak L</h1>
-<h4>Founder of <b>Deep_Code Labs</b> | Web Developer | Cybersecurity Enthusiast</h4
-</div>
-<div class="links">    
-<nav> <!-- Navigation -->
-  <h3> 
-    <a href="#about_me">About Me</a> || <!-- here we use #about_me which is we are calling id of a section and while calling we have to use # symbol and we have to create that id inside section -->
-    <a href="#skills">Skills</a>||  
-    <a href="#projects">Projects</a> ||  
-    <a href="#achievements">Achievements</a> ||
-    <a href="#certifications">Certifications</a> ||
-    <a href="#gallery">Image Gallery</a> ||
-    <a href="#videos">YouTube References</a> ||
-    <a href="#contact">Contact Info</a>
-  </h3>
-</nav> 
-</div>
-<div class="aboutme">
-<section id="about_me">   <!-- Navigation , to navigation we give name for each sections , the name used here must give in navigation --> 
-    
-<h3 class="aboutHead">🙋‍♂️About me </h3>   
-<ul type="square">
-    <li> <b>Deepak L </b>Pursuing B.Sc Computer Science at Don Bosco College, Yelagiri Hills.</li>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="https://github.com/deepgit-hub" target="_blank" class="btn secondary">GitHub</a>
+        </div>
+    </div>
+</header>
 
-    <br>
-    <li>💼 Aspiring<b> Cybersecurity </b> professional </li>
-    <br>
-    <li><b>Turing code into real world solutions </b>.</li>
-    <br>
-    <li>🧠 Skilled in <b>data structures and logical thinking </b>, with active participation in coding platforms like HackerRank.</li>
-    <br>
-    <li>🖥 Having strong 💪 interest in <b>cybersecurity</b>, especially in the areas of <b>vulnerability assessment</b>, <b>ethical hacking </b>, and <b>cyber defense..</b></li>
-   <br> 
-</ul>
-</section>    
-</div>
-<br>
-<div class="Techskills">
-<section id="skills">
-<h3 class="techhead">🧑‍💻Technical Skills</h3>
-<ul type="circle">
-    <li>Programming : <b>C++, Python, Java (learning), DSA (Basics), HTML, CSS, Linux(Basics)</b></li>
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#videos">YouTube</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <br>
-    <li>Cybersecurity basics and ethical hacking basics</li>
-    <br>
-    <li>Tools: <b>Git,VS code</b></li>
-</ul>
-</section>    
-</div>
-<div class="softskills">
-<h3 class="softhead">🤝 Soft Skills</h3>   
-<ul>
-    <li><b>Public Speaking</b></li>
-    <br>
-    <li><b>Leadership (Gandhi Peace Club Secretary and joint secretary of the Department)</b></li>
-    <br>
-    <li><b>Communication and teamwork(Organized fresher's day in college)</b></li>
-</ul>  
-</div>
-<br>
-<div class="projetcs">
-<section id="projects">
-<h3 class="prohead">🖥️ Projects</h3>
-<ul>
-    <li>🖥️ Student Record System using c++ which is used to store student data like roll number,blood group etc. </li>
-    <br>
-    <li>🏦 Bank Management System using c++ which enables the user to create their account and add money and check the intreset rate etc</li>
-    <br>
-    <li>🔢 Scientific Calculator using c++</li>
-    <br>
-    <li>📚 Library Management System using c++ which is used to know the time and date of students to broughts that book</li>
-    <br>
-    <li>✅ To-Do List using c++</li>
-    <br>
-    <li>🌐 Digital Portfolio Website (Personal Brand)</li>
-
-</ul>
-</div>
-</section>    
-<br>
-<div class="achievements">
-<section id="achievements">    
-<h3 class="achievementshead">🎓 Achievements</h3>
-<ol>
-    <li>🎤 Delivered a <b>Teacher’s Day Speech</b> at my college.</li>
-    <br>
-    <li>💻 Presented a session on <b>Dual Boot and Virtual Machines</b>.</li>
-    <br>
-    <li>🏆 Won a <b>Cash Prize</b> in <b>Pixel Roast</b> and <b>Knowledge Knockout</b> at Sacred Heart College.</li>
-    <br>
-    <li>📄 Secured a <b>Cash Prize</b> in the <b>Paper Presentation Competition</b> at M.G.R. College.</li>
-    <br>
-    <li>🎨 Won a <b>Prize for Book Cover Design</b> in my college competition.</li>
-    <br>
-    <li>🕊️ Delivered an <b>Inspirational Speech</b> to <b>Charles School Students</b> on <b>Peace and the Importance of Freedom</b>.</li>
-    <br>
-    <li>🎓 Gave an <b>Inspirational Fresher’s Day Speech</b> for <b>First-Year Students</b> in my department.</li>
-    <br>
-    <li>Won First Price in <b>Book Review competition</b> conducted by Literacy club</li>
-</ol>
-</section>    
-</div>
-<div class="cert">
-<section id="certifications">    
-<h3 class="certhead">🎓 Certifications</h3>
-<ul>
-    <li>💻 <b>HDCA</b> – Honours Diploma in Computer Applications</li>
-    <br>
-    <li>🌐 <b>Naan Mudhalvan</b> – Fundamentals of Web Development</li>
-</ul>
-<br>
+<!-- ========== ABOUT ========== -->
+<section id="about" class="section">
+    <h3 class="section-title">🙋‍♂️ About Me</h3>
+    <p>
+        I am a B.Sc Computer Science student at Don Bosco College, Yelagiri, focused on building
+        real-world Java logic systems. I enjoy converting problem statements into working programs
+        using clear conditions, loops, and arrays.
+    </p>
 </section>
-</div>
-<div class="Gallery">
-<section id="gallery">    
-<h3 class="imagehead">📸 Image Gallery</h3>  
-    <head>
-    <link rel="stylesheet" href="style.css">
-</head>
-  <div class="Gallery">    
-  <img src="Deepak.jpg" width="300px"> 
-  <div class="description">
-  <div class="description_left">
-  <h4>✅ Wrapped a Powerful session on Cybersecurity</h4>
-  <p>📧 Showed phishing & data breach demo with fake mails</p>
-  <p>🔑 Shared a password strength checker & "Have I Been Pwned" 🌐</p>
-  <p>📩 Explained how to protect your email ID</p>
-  </div> 
-  <div class="description_right">
-  <p>🛠️ Introduced hacking devices like Flipper Zero & WiFi Pineapple</p>
-  <p>👨‍🏫 Guided students who want to start their career in Cybersecurity</p>
-  <p>🕵️ Explained about Ethical Hackers & their types</p>
-  <p>🙋‍♂️ Answered audience & HOD’s questions 🙌</p>
-  </div>
-  </div>  
-</div>
-<hr>
-<div class="Gallery">   
-  <img src="Deepak Book.jpg" width="300px"> 
-  <div class="description">
-  <div class="description_left">
-  <h4>🌟 Secured 1st place in  Book Review Competition.</h4>
-  <p>📘 Reviewed the inspiring biography of Elon Musk, a story of vision and courage</p>
-  <p>🚀 Spoke about innovation, resilience, and the mindset that shapes the future.</p>
-  <p>🎙️ Delivered a compelling speech that connected strongly with the audience.</p>
-  </div> 
-  <div class="description_right">
-  <p>💼 This achievement boosted my confidence in communication and presentation.</p>
-  <p>🌍 Grateful for the chance to share insights on a world-changing entrepreneur.</p>
-  <p>📈 Every milestone reminds me to push harder and grow smarter.</p>
-  <p>🔥 The journey continues — with passion, discipline, and a mindset to achieve more.</p>
-  </div>
-  </div>  
-</div>
-<hr>
-<div class="Gallery">   
-  <img src="MGR.jpg" width="300px"> 
-  <div class="description">
-  <div class="description_left">
-  <h4>🏆 Secured 2nd Place 🥈 in the Paper Presentation Competition at MGR College 🏛️..</h4>
-  <p> 💻 Students from top  colleges in Bangalore are also participated</p>
-  <p> 💰 I received a certification along with cash price </p>
-  <p> 🛡️I presented on Cybersecurity , covering:</p>
-  </div> 
-  <div class="description_right">
-  <p>⚡ Quantum Computing in Cybersecurity (Threat ⚔️ & Opportunity 🛡️)</p>
-  <p>⚡ Artificial Intelligence in Cybersecurity (Shield 🤖 & Sword ⚔️)</p>
-  <p>⚡ IoT in Cybersecurity 🌐</p>
-  <p>🔥 Each with their merits & demerits</p>
-  </div>
-  </div>  
-</div>
-<hr>
-<div class="Gallery">   
-  <img src="Deepak Teacher's Day.jpg" width="300px"> 
-  <div class="description">
-  <div class="description_left">
-  <h4>🎤Honored to deliver a Teachers’ Day speech in front of my college today </h4>
-  <p> 🎓Grateful to appreciate the mentors who guide our journey </p>
-  <p> ✨Their wisdom continues to shape our future </p>
-  <p> 🙏Proud to celebrate the educators who inspire us every day </p>
-  </div> 
-  </div>  
-</div>
-<hr>
-<div class="Gallery">   
-  <img src="Deepak_SacredHeart.jpg" width="300px"> 
-  <div class="description">
-  <div class="description_left">
-  <h4>✨ I had the privilege of representing my college and I secured </h4>
-  <p> 🥉 3rd Place in Knowledge Knockout (among 60 participants, shortlisted to the top 10) – awarded with a cash prize, certificate, and trophy.</p>
-  <p> 🏅 5th Place in Pixel Roast (among 25 participants) – awarded with a certificate and trophy.</p>
-  </div> 
-  </div>  
-</div>
 
-<hr>
-<div class="Gallery">   
-  <img src="Deepak Freshers Day.jpg" width="300px"> 
-  <div class="description">
-  <div class="description_left">
-  <h4>🎤 Shared my thoughts with the next wave of talent!</h4>
-  <p>💻 Start developing coding skills early</p>
-  <p>🎧 Improve English by actively listening</p>
-  <p>🌟 Explore all opportunities college offers</p>
-  </div> 
-  </div>  
-</div>
-<hr>
-<div class="Gallery">   
-  <img src="Gandhi.jpg" width="300px"> 
-  <div class="description">
-  <div class="description_left_Gandhi">
-  <h4>🌍✨Inspiring Young Minds</h4>
-  <p> 💻 As a  Secretary and President of Gandhi Peace Club</p>
-  <p>🎓 Deliver a speech at Charles School, Yelagiri </p>
-  <p> 🌱 In front of the bright young students of 11th and 12th grade.</p>
-  <p>✊I shared my thoughts on why we got freedom</p>
-  </div>   
-</div>
-<hr>
-<br>
-</div>
-    <div class="Videos">
-<section id="videos">
-<h3 class="youhead">🎬 YouTube References</h3>
-
-<div class="video-box">
-    <iframe src="https://www.youtube.com/embed/u0Pw3VKqtdQ" allowfullscreen></iframe>
-    <p>
-        This video presentation explains the concepts of Virtual Machines and Dual Boot Systems in detail.
-        I demonstrated how multiple operating systems can run on a single computer and discussed advantages
-        and disadvantages of both methods.
-    </p>
-</div>
-
-<div class="video-box">
-    <iframe src="https://www.youtube.com/embed/mkakJ7yekEc" allowfullscreen></iframe>
-    <p>
-        In this video, I delivered an inspirational Fresher’s Day speech, sharing five key principles
-        students should follow to succeed in college life.
-    </p>
-</div>
-
-<div class="video-box">
-    <iframe src="https://www.youtube.com/embed/sDNKzwOV4p4" allowfullscreen></iframe>
-    <p>
-        This presentation covers Cybersecurity and Ethical Hacking, types of hackers, preventive measures,
-        and an interactive Q&A session with students and faculty.
-    </p>
-</div>
-
+<!-- ========== SKILLS (RESTORED) ========== -->
+<section id="skills" class="section">
+    <h3 class="section-title">🧑‍💻 Skills</h3>
+    <ul class="skills-list">
+        <li><b>Programming:</b> Java (Foundations), Python (Basics)</li>
+        <li><b>Core Concepts:</b> Arrays, Loops, Conditions, Logic Building</li>
+        <li><b>DSA:</b> Basics</li>
+        <li><b>Web:</b> HTML, CSS</li>
+        <li><b>Tools:</b> Git, GitHub, VS Code</li>
+        <li><b>OS:</b> Linux (Ubuntu)</li>
+    </ul>
 </section>
-</div>
 
-<br>
-<div class="contact">
-    <div>🌐 <a href="https://www.linkedin.com/in/deepaklogu/">LinkedIn</a></div>
-    <div>📧 Email: deepak2911001@gmail.com</div>
-    <div>📱 Phone: 9345738927</div>
-</div>
- 
-</section>    
+<!-- ========== PROJECTS ========== -->
+<section id="projects" class="section">
+    <h3 class="section-title">🖥️ Java Projects</h3>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h4>Employee Salary & Attendance System</h4>
+            <p>Calculates final salary using attendance, late days, leave count, and fines.</p>
+            <a href="https://github.com/deepgit-hub/Java-Mini-Project5/blob/main/employee_salary_and_detection_system.java" target="_blank" class="btn secondary">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h4>Student Result Analysis System</h4>
+            <p>Finds pass/fail count, average, topper, and lowest mark using arrays.</p>
+            <a href="https://github.com/deepgit-hub/Java-Mini-Project3/blob/main/Student%20Performance%20and%20Discipline%20Management%20System.java" target="_blank" class="btn secondary">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h4>Student Eligibility Checker</h4>
+            <p>Determines exam eligibility based on attendance and medical certificate rules.</p>
+            <a href="https://github.com/deepgit-hub/Java-Mini-Project1/blob/main/student_eligibility_system.java" target="_blank" class="btn secondary">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h4>Login Validation System</h4>
+            <p>Validates age, ID proof, and permission letter before login.</p>
+            <a href="https://github.com/deepgit-hub/Java-Problem-Solving" target="_blank" class="btn secondary">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h4>Traffic Rule & Fine Logic</h4>
+            <p>Applies fines and warnings based on traffic rule violations.</p>
+            <a href="https://github.com/deepgit-hub/Java-Problem-Solving/blob/main/problem10.java" target="_blank" class="btn secondary">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h4>College Library fine system </h4>
+            <p>Appilies fine on the student based on days he took to return the Book.</p>
+            <a href="https://github.com/deepgit-hub/Java-Mini-Project4/blob/main/college_library_fine_system.java" target="_blank" class="btn secondary">View Code</a>
+        </div>
+
+    </div>
+</section>
+<!-- ========== ACHIEVEMENTS ========== -->
+<section id="achievements" class="section">
+    <h3 class="section-title">🎓 Achievements</h3>
+
+    <ol class="achievements-list">
+        <li>🎤 Delivered a <b>Teacher’s Day Speech</b> at my college.</li>
+        <li>💻 Presented a session on <b>Dual Boot and Virtual Machines</b>.</li>
+        <li>🏆 Won a <b>Cash Prize</b> in <b>Pixel Roast</b> and <b>Knowledge Knockout</b> at Sacred Heart College.</li>
+        <li>📄 Secured a <b>Cash Prize</b> in the <b>Paper Presentation Competition</b> at M.G.R. College.</li>
+        <li>🎨 Won a <b>Prize for Book Cover Design</b> in my college competition.</li>
+        <li>🕊️ Delivered an <b>Inspirational Speech</b> to <b>Charles School Students</b> on <b>Peace and the Importance of Freedom</b>.</li>
+        <li>🎓 Gave an <b>Inspirational Fresher’s Day Speech</b> for <b>First-Year Students</b> in my department.</li>
+        <li>📘 Won <b>First Prize</b> in the <b>Book Review Competition</b> conducted by the Literacy Club.</li>
+    </ol>
+</section>
+
+<!-- ========== GALLERY ========== -->
+<section id="gallery" class="section">
+    <h3 class="section-title">📸 Image Gallery</h3>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img src="Deepak.jpg">
+            <p>Cybersecurity Awareness Session</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Deepak Book.jpg">
+            <p>1st Prize – Book Review Competition</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="MGR.jpg">
+            <p>Paper Presentation – MGR College</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Deepak Teacher's Day.jpg">
+            <p>Teacher’s Day Speech</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Deepak Freshers Day.jpg">
+            <p>Fresher’s Day Address</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gandhi.jpg">
+            <p>Gandhi Peace Club – School Session</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="Deepak_SacredHeart.jpg">
+            <p>Inter-College Events – Sacred Heart</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Deepak Dual Boot.png" alt="Presentation  Image">
+             <p>Dual Boot Presentation</p>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- ========== YOUTUBE ========== -->
+<section id="videos" class="section">
+    <h3 class="section-title">🎬 YouTube References</h3>
+
+    <div class="video-grid">
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/u0Pw3VKqtdQ" allowfullscreen></iframe>
+            <p>Technical Session: Virtual Machines & Dual Boot</p>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/mkakJ7yekEc" allowfullscreen></iframe>
+            <p>Inspirational Fresher’s Day Speech</p>
+        </div>
+
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/sDNKzwOV4p4" allowfullscreen></iframe>
+            <p>Cybersecurity & Ethical Hacking Awareness Session</p>
+        </div>
+
+    </div>
+</section>
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="section contact">
+    <h3 class="section-title">📞 Contact</h3>
+
+    <p>📧 Email: 
+        <a href="mailto:deepak2911001@gmail.com">
+            deepak2911001@gmail.com
+        </a>
+    </p>
+
+    <p>📱 Phone: 9345738927</p>
+
+    <p>🔗 LinkedIn: 
+        <a href="https://www.linkedin.com/in/deepaklogu/" target="_blank">
+            linkedin.com/in/deepaklogu
+        </a>
+    </p>
+
+    <p>💻 GitHub: 
+        <a href="https://github.com/deepgit-hub" target="_blank">
+            github.com/deepgit-hub
+        </a>
+    </p>
+</section>
+</footer>
 </body>
 </html>
